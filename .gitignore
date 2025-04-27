@@ -1,0 +1,36 @@
+
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+.env
+
+# Bases de datos temporales
+*.sqlite
+*.sqlite3
+
+# Cachés
+.cache/
+dist/
+build/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+
+# Archivos de producción
+*.tgz
+
+# Coverage de tests
+coverage/
+
+# Migraciones temporales (si usas Sequelize)
+migrations/*.js~
